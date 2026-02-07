@@ -14,7 +14,7 @@ COPY *.go ./
 RUN go build -o /taintmanager
 
 ## Deploy
-FROM gcr.io/distroless/base-debian11
+FROM gcr.io/distroless/base-debian12
 
 WORKDIR /
 
